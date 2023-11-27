@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+</head>
+<body>
+    <script>
+
+       let metodo = parseInt(prompt(" Qual será o método desejado? \n 1. Soma e média de 4 digitos \n 2. Soma e média de quantidade indefinida \n 3. Soma dos impares no intervalo definido "));
+    
+       if(metodo == 1){
+        window.location.href = "medias.html";
+
+       }
+
+       else if(metodo == 2){
+        window.location.href = "mediasAlt.html";
+       }
+
+       else if(metodo == 3){
+        window.location.href = "impares.html";
+       }
+
+       else{
+        alert("Escolha um número válido (1,2,3)");
+        window.location.reload();
+       }
+
+    </script>
+
+
+</body>
+</html>
